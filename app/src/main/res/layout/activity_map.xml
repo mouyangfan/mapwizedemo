@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:mapbox_cameraTargetLat="53.309234"
+        app:mapbox_cameraTargetLng="-6.223784"
+        app:mapbox_styleUrl="https://outdoor.mapwize.io/styles/mapwize/style.json?key=076d935377676d924d09788fad57d043"
+        app:mapbox_cameraZoom="15"/>
+
+</android.support.constraint.ConstraintLayout>
